@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的主页</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/personal.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="images/logo2016.png">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="#"><span class="glyphicon glyphicon-home"></span> 首页</a>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-stats"></span> 年度海报 <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#"><span class="glyphicon glyphicon-play"></span> 2016年电影海报</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-play"></span> 2015年电影海报</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-play"></span> 2014年电影海报</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-play"></span> 2013年电影海报</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-play"></span> 2012年电影海报</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-play"></span> 2011年电影海报</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-play"></span> 2010年电影海报</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-play"></span> 2009年电影海报</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-play"></span> 2008年电影海报</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-play"></span> 2007年电影海报</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-play"></span> 2006年电影海报</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-play"></span> 2005年电影海报</a></li>
+                <li class="divider"></li>
+                <li><a href="#">H怀旧海报(1969年以前)</a></li>
+                <li class="divider"></li>
+                <li><a href="#"><span class="glyphicon glyphicon-cloud-download"></span> 更多海报</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-search"></span> 检索</a>
+            </li>
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-screenshot"></span> 专题</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-pencil"></span> 登录&注册 <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> 注册</a></li>
+                <li class="divider"></li>
+                <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> 登录</a></li>
+              </ul>
+            </li>
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="中/英文电影名或演员名">
+              </div>
+              <button type="submit" class="btn btn-default">搜索</button>
+            </form>
+          </ul>
+          
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <a href="#">
+            <img src="images/banner1.jpg" alt="...">
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <img src="images/banner2.jpg" alt="...">
+          </a>
+        </div>
+        <div class="item">
+          <a href="#">
+            <img src="images/banner3.jpg" alt="...">
+          </a>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="movie-recommend">
+      <div class="section_title">
+        <h2>电影海报推荐</h2>
+        <p class="Chinese-p">
+          <span>第一时间欣赏本月即将上映的海报</span></p>
+        <p class="English-p">LET YOU ENJOY THE FIRST TIME</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-md-4 col-xs-6 col-sm-6">
+            <div class="recommend">
+              <a href="#"><img src="images/tj001.jpg" alt=""></a>
+              <h4><a href="#">《我们诞生在中国》电影海报</a></h4>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-4 col-xs-6 col-sm-6">
+            <div class="recommend">
+              <a href="#"><img src="images/tj002.jpg" alt=""></a>
+              <h4><a href="#">《寒战2》电影海报</a></h4>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-4 col-xs-6 col-sm-6">
+            <div class="recommend">
+              <a href="#"><img src="images/tj003.jpg" alt=""></a>
+              <h4><a href="#">《泰山归来：险战丛林》电影海报</a></h4>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-4 col-xs-6 col-sm-6">
+            <div class="recommend">
+              <a href="#"><img src="images/tj004.jpg" alt=""></a>
+              <h4><a href="#">《绝地逃亡》电影海报</a></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="movie-around">
+      <div class="section_title">
+        <h2>电影周边</h2>
+        <p class="Chinese-p">
+          <span>第一时间欣赏本月即将上映的海报</span></p>
+        <p class="English-p">LET YOU ENJOY THE FIRST TIME</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-6 col-xs-4">
+            <div class="around">
+              <a href="#"><img src="images/zb001.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-4">
+            <div class="around">
+              <a href="#"><img src="images/zb002.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-4">
+            <div class="around">
+              <a href="#"><img src="images/zb003.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-4">
+            <div class="around">
+              <a href="#"><img src="images/zb004.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-4">
+            <div class="around">
+              <a href="#"><img src="images/zb005.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-4">
+            <div class="around">
+              <a href="#"><img src="images/zb006.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="update">
+      <div class="section_title">
+        <h2>最近更新电影海报</h2>
+        <p class="Chinese-p">
+          <span>最近更新电影海报列表</span></p>
+        <p class="English-p">RECENTLY UPDATED LIST OF MOVIE POSTERS</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="waterfall" id="waterfall">
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update01.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update02.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update03.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update04.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update05.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update06.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update07.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update08.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update09.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update10.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update11.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update12.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update13.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update14.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update15.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update16.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update17.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update18.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update19.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update20.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update21.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update22.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update23.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 .col-xs-6 updateItem">
+              <div class="updateBox">
+                <div class="smBox">
+                  <a href="#" class="update-show">
+                    <img src="images/update24.png" alt="">
+                    <h4>《大话西游3 . A Chinese Odyssey Part Ⅲ》电影海报</h4>
+                  </a>
+                  <a href="#" class="update-hide">
+                    <i><img src="images/flag01.png" alt=""></i>
+                    <span>共12张海报</span>
+                    <h4>大话西游3</h4>
+                    <p>主演: 韩庚 / 唐嫣 / 吴京 / 莫文蔚 / 张超 / 张瑶 / 王一博 / 钟欣潼 / 谢楠 / 何炅 / 胡静 / 黄征 / 刘镇伟 / 曹承衍 / 周艺轩 / 元奎</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="seminar">
+      <div class="section_title">
+        <h2>电影海报专题</h2>
+        <p class="Chinese-p">
+          <span>根据海报不同类型进行分类</span></p>
+        <p class="English-p">MOVIE POSTERS THEME</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-xs-4">
+            <a href="#"><img src="images/zt01.png" alt=""></a>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <a href="#"><img src="images/zt02.png" alt=""></a>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <a href="#"><img src="images/zt03.png" alt=""></a>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <a href="#"><img src="images/zt04.png" alt=""></a>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <a href="#"><img src="images/zt05.jpg" alt=""></a>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <a href="#"><img src="images/zt06.jpg" alt=""></a>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <a href="#"><img src="images/zt07.jpg" alt=""></a>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <a href="#"><img src="images/zt08.jpg" alt=""></a>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <a href="#"><img src="images/zt09.jpg" alt=""></a>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <a href="#"><img src="images/zt10.jpg" alt=""></a>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <a href="#"><img src="images/zt11.jpg" alt=""></a>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <a href="#"><img src="images/zt12.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="material">
+      <div class="section_title">
+        <h2>装饰画素材</h2>
+        <p class="Chinese-p">
+          <span>大量的装饰画画芯素材</span></p>
+        <p class="English-p">Hd DECORATIVE PAINTING CORE MATERIAL</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-4 col-xs-4">
+            <a href="#"><img src="images/sc01.jpg" alt=""></a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-4">
+            <a href="#"><img src="images/sc02.jpg" alt=""></a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-4">
+            <a href="#"><img src="images/sc03.jpg" alt=""></a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-4">
+            <a href="#"><img src="images/sc04.jpg" alt=""></a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-4">
+            <a href="#"><img src="images/sc05.jpg" alt=""></a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-4">
+            <a href="#"><img src="images/sc06.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cooperate">
+      <div class="container">
+        <h3>合作伙伴</h3>
+        <div class="row">
+          <div class="col-md-8 company">
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="imgBox">
+                  <img src="images/cooperate01.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="imgBox">
+                  <img src="images/cooperate02.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="imgBox">
+                  <img src="images/cooperate03.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="imgBox">
+                  <img src="images/cooperate04.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 qr-code">
+            <img src="images/qr-code.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/waterfall.js"></script>
+  </body>
+</html>
